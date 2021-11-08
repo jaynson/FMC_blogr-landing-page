@@ -1,0 +1,23 @@
+[
+  {
+    "key": 1,
+    "NavLink": "Product",
+    "Sublink": [
+      "Overview",
+      "Pricing",
+      "Marketplace",
+      "Features",
+      "Integrations"
+    ]
+  },
+  {
+    "key": 2,
+    "NavLink": "Company",
+    "Sublink": ["About", "Team", "Blog", "Careers"]
+  },
+  {
+    "key": 3,
+    "NavLink": "Connect",
+    "Sublink": ["Contact", "Newsletter", "LinkedIn"]
+  }
+]
