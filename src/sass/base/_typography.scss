@@ -1,0 +1,203 @@
+:root {
+  font-size: $default-text-size;
+}
+
+body {
+  line-height: 1.4;
+  // font-family: 'Fraunces', sans-serif;
+  font-size: 1.8rem;
+
+  .ff-overpass {
+    font-family: 'Overpass', sans-serif;
+  }
+  .ff-ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .fw-300 {
+    font-weight: 300;
+  }
+  .fw-400 {
+    font-weight: 400;
+  }
+  .fw-500 {
+    font-weight: 500;
+  }
+  .fw-600 {
+    font-weight: 600;
+  }
+  .fw-700 {
+    font-weight: 700;
+  }
+
+  ////BUTTON
+  .btn {
+    text-align: center;
+    &-free,
+    &-signup.nav__link {
+      color: $color-primary-light-red-CTA-text;
+      font-size: 1.6rem;
+    }
+
+    &-learn {
+      color: $color-neutral-white-text;
+    }
+  }
+  ////CORE SERVICES
+  .core-services {
+    text-align: center;
+    &__content {
+      &-title {
+        font-size: 2.8rem;
+        color: $color-primary-very-dark-blue-headings;
+
+        @include respond(1315) {
+          font-size: 2.5rem;
+        }
+        @include respond(800) {
+          font-size: 3.5rem;
+        }
+        @include respond(325) {
+          font-size: 2.4rem;
+        }
+      }
+      &-summary {
+        font-size: 1.6rem;
+        line-height: 1.7;
+        color: $color-neutral-very-dark-grayish-blue-body-copy;
+        @include respond(800) {
+          font-size: 2.2rem;
+        }
+        @include respond(325) {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+  ////FOOTER
+  .footer-nav {
+  }
+  ////Featured
+  .featured {
+    @include style-font-size('title', 3.5);
+    @include style-font-size('summary', 1.6);
+    color: $color-neutral-white-text;
+
+    &__summary {
+      line-height: 1.7;
+    }
+    &__title {
+      text-align: left;
+      @include respond(800) {
+        text-align: center;
+      }
+    }
+
+    @include respond(1315) {
+      @include style-font-size('title', 3);
+    }
+    @include respond(800) {
+      @include style-font-size('title', 4.5);
+      @include style-font-size('summary', 2.2);
+      text-align: center;
+    }
+    @include respond(500) {
+      @include style-font-size('title', 3.5);
+      @include style-font-size('summary', 2);
+    }
+    @include respond(375) {
+      @include style-font-size('title', 3);
+      @include style-font-size('summary', 1.8);
+    }
+    @include respond(325) {
+      @include style-font-size('title', 2.4);
+      @include style-font-size('summary', 1.6);
+    }
+  }
+  ////HEADER
+  .header {
+    color: $color-neutral-white-text;
+    @include style-font-size('title', 6);
+    // @include style-font-size('sub-title', 1.6);
+    &__sub-title {
+      color: rgba($color-neutral-white-text, 0.8);
+      text-align: center;
+    }
+    &__title {
+      text-align: center;
+    }
+
+    @include respond(900) {
+      @include style-font-size('title', 5.2);
+    }
+  }
+
+  ////MAIN TITLE
+  .main__title {
+    font-size: 3.8rem;
+    color: $color-primary-very-dark-blue-headings;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  ////NAV
+  .nav__list,
+  .nav__sub-list {
+    list-style: none;
+  }
+
+  .nav__link,
+  .nav__sub-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .nav__link {
+    color: rgba($color-neutral-white-text, 0.95);
+  }
+
+  .footer-nav {
+    .nav__sub-link {
+      color: rgba($color-neutral-white-text, 0.75);
+      @include respond(800) {
+        font-size: 2.2rem;
+        font-weight: 400;
+      }
+    }
+
+    .nav__link {
+      font-size: 1.6rem;
+      @include respond(800) {
+        font-size: 2.5rem;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .members {
+    // &-nav__link.nav__link {
+    //   @include respond(800) {
+    //     font-size: 2.5rem;
+    //     // font-weight: 500;
+    //   }
+    // }
+  }
+
+  .menu {
+    &-nav__link.nav__link {
+      @include respond(800) {
+        font-size: 2.5rem;
+        // font-weight: 500;
+      }
+    }
+  }
+  .dropdown {
+    &__sub-container {
+      .nav__sub-link {
+        text-decoration: none;
+      }
+    }
+  }
+
+  ////NAV
+  ////NAV
+}

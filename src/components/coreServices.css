@@ -1,0 +1,17 @@
+.core-services--top{
+    background-image: url('../images/illustration-editor-desktop.svg');
+}
+
+.core-services--bottom{
+    background-image: url('../images/illustration-laptop-desktop.svg');
+}
+
+@media screen and (max-width: 50em) {
+    .core-services--top{
+        background-image: url('../images/illustration-editor-mobile.svg');
+    }
+    
+    .core-services--bottom{
+        background-image: url('../images/illustration-laptop-mobile.svg');
+    }
+}

@@ -1,0 +1,48 @@
+$default-text-size: 62.5%;
+
+// Color Variables
+
+$color-primary-light-red-CTA-text: hsl(356, 100%, 66%);
+$color-primary-very-light-red-CTA-hover-bg: hsl(355, 100%, 74%);
+$color-primary-very-dark-blue-headings: hsl(208, 49%, 24%);
+
+$color-neutral-very-dark-black-blue-footer-bg: hsl(240, 10%, 16%);
+$color-neutral-very-dark-grayish-blue-body-copy: hsl(207, 13%, 34%);
+$color-neutral-grayish-blue-footer-text: hsl(240, 2%, 79%);
+$color-neutral-white-text: hsl(0, 0%, 100%);
+
+$color-bgG-very-light-red-intCTA-mob-nav: hsl(13, 100%, 72%);
+$color-bgG-light-red-intCTA-mob-nav: hsl(353, 100%, 62%);
+$color-bgG-very-dark-gray-blue-body: hsl(237, 17%, 21%);
+$color-bgG-very-dark-desaturated-blue-body: hsl(237, 23%, 32%);
+
+//Background container Variables-Desktop
+$main-component-max-width-desktop: 144rem;
+$main-component-max-height-desktop: 102.4rem;
+
+//Background container Variables-Mobile
+$main-component-max-width-mobile-800px: 70rem;
+$main-component-max-width-mobile-375px: 37.5rem;
+$main-component-max-width-mobile-285px: 28.5rem;
+
+//Content Variables
+$content-max-width-desktop: 92rem;
+$content-max-width-mobile: 40rem;
+
+$header-height-desktop: 80rem;
+$header-height-mobile: 60rem;
+
+$left-padding: 16.6rem;
+$right-padding: 16rem;
+
+//Card Variables Desktop
+$card-max-width-desktop: 63.7rem;
+
+//Card Variables Responsive
+$card-max-width-responsive-612px: 40rem;
+
+$pic-aspect-ratio-top: 92.5rem / 88.2rem;
+$pic-aspect-ratio-bottom: 97.4rem / 78.6rem;
+
+$pic-aspect-ratio-top-mobile: 40.6rem / 33.1rem;
+$pic-aspect-ratio-bottom-mobile: 49.8rem / 35.9rem;

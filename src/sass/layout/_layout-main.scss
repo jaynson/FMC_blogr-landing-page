@@ -1,0 +1,264 @@
+///////////////////////////////////////////////////////////
+////        CONTAINER
+
+// container
+.container {
+}
+
+// Component
+.component {
+  max-width: $main-component-max-width-desktop;
+  @include margin-centralize;
+
+  @include respond(800) {
+    max-width: $main-component-max-width-mobile-800px;
+  }
+}
+
+///////////////////////////////////////////////////////////
+////        HEADER
+.header {
+  width: 100%;
+  background-size: 200%, cover;
+  // background-position: top -80rem center, center;
+  background-position: left -40rem center, center;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  border-bottom-left-radius: 10rem;
+
+  &-content__wrapper {
+    padding: 5rem 0 15rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 13rem;
+    align-self: stretch;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .CTA {
+    display: flex;
+    @include respond(375) {
+      flex-direction: column;
+    }
+  }
+  @include respond(800) {
+    border-bottom-left-radius: 20rem;
+  }
+  @include respond(350) {
+    border-bottom-left-radius: 10rem;
+  }
+}
+///////////////////////////////////////////////////////////
+////        MAIN
+.main {
+}
+///////////////////////////////////////////////////////////
+////        MAIN - CORE SERVICES
+.core-services {
+  display: flex;
+  padding: 33rem 0 28rem;
+
+  &--top {
+    background-attachment: local;
+    background-repeat: no-repeat;
+    // background-position: right -53% center;
+    background-position: right -27rem center;
+    // background-size: 92.5rem 88.2rem;
+    @include respond(1200) {
+      background-size: get-width-top(1200) get-height-top(1200);
+      background-position: right -23rem center;
+    }
+    @include respond(1000) {
+      background-size: get-width-top(1000) get-height-top(1000);
+      background-position: right -19.5rem center;
+    }
+    @include respond(860) {
+      background-size: get-width-top(860) get-height-top(860);
+      background-position: right -16.5rem center;
+    }
+    @include respond(800) {
+      background-size: contain;
+      background-position: center top;
+    }
+  }
+
+  &--top &__content {
+    margin-right: auto;
+    padding-left: $left-padding;
+
+    @include respond(1220) {
+      padding-left: $left-padding - 8;
+    }
+    @include respond(1100) {
+      padding-left: $left-padding - 12;
+    }
+    @include respond(800) {
+      padding-left: 0;
+      margin-top: 65%;
+    }
+    @include respond(550) {
+      margin-top: 40%;
+    }
+  }
+
+  &--bottom {
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: left -27.5rem center;
+    // background-size: 60%;
+    // background-size: 92.5rem 88.2rem;
+    @include respond(1200) {
+      background-size: get-width-bottom(1200) get-height-bottom(1200);
+      background-position: left -23.5rem center;
+    }
+    @include respond(1000) {
+      background-size: get-width-bottom(1000) get-height-bottom(1000);
+      background-position: left -19.5rem center;
+    }
+    @include respond(860) {
+      background-size: get-width-bottom(860) get-height-bottom(860);
+      background-position: left -17rem center;
+    }
+    @include respond(800) {
+      background-size: contain;
+      background-position: center top;
+      margin-top: 10rem;
+    }
+  }
+
+  &--bottom &__content {
+    margin-left: auto;
+    padding-right: $right-padding;
+
+    @include respond(1220) {
+      padding-right: $right-padding - 8;
+    }
+    @include respond(1100) {
+      padding-right: $right-padding - 12;
+    }
+    @include respond(800) {
+      padding-right: 0;
+      margin-top: 50%;
+    }
+    @include respond(550) {
+      margin-top: 40%;
+    }
+  }
+
+  .content--1 {
+    margin-bottom: 5rem;
+  }
+
+  &__content {
+    flex: 0 0 46.5%;
+    // max-width: 67rem;
+
+    &-title {
+      margin-bottom: 2rem;
+    }
+
+    @include respond(800) {
+      flex: 0 0 80%;
+      @include margin-centralize;
+    }
+  }
+
+  @include respond(1000) {
+    padding: 20rem 0 10rem;
+  }
+  @include respond(860) {
+    padding: 15rem 0 8rem;
+  }
+  // @include respond(800) {
+  //   padding: 25rem 0 10rem;
+  // }
+}
+///////////////////////////////////////////////////////////
+////        MAIN - Featured
+.featured {
+  height: 40rem;
+
+  &-content__wrapper {
+    display: flex;
+    align-items: center;
+
+    @include respond(800) {
+      flex-direction: column;
+    }
+  }
+
+  @include respond(1030) {
+    height: 35rem;
+  }
+  @include respond(980) {
+    height: 30rem;
+  }
+  @include respond(900) {
+    height: 25rem;
+  }
+  @include respond(830) {
+    height: 22rem;
+  }
+  @include respond(800) {
+    height: 75rem;
+    margin-top: 30rem;
+  }
+  @include respond(500) {
+    margin-top: 20rem;
+  }
+  @include respond(400) {
+    margin-top: 12rem;
+  }
+  @include respond(330) {
+    margin-top: 8rem;
+  }
+}
+
+///////////////////////////////////////////////////////////
+////        MAIN - GALLERY
+
+///////////////////////////////////////////////////////////
+////        FOOTER
+.footer {
+  &-content__wrapper {
+    padding: 7rem 0 8rem;
+    display: flex;
+
+    @include respond(800) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////
+////        CONTENT WRAPPER
+.content__wrapper {
+  padding-left: $left-padding;
+  padding-right: $right-padding;
+
+  @include respond(1220) {
+    padding-left: $left-padding - 8;
+    padding-right: $right-padding - 8;
+  }
+  @include respond(1100) {
+    padding-left: $left-padding - 12;
+    padding-right: $right-padding - 12;
+  }
+  // @include respond(895) {
+  //   padding-left: $left-padding - 12;
+  //   padding-right: $right-padding - 12;
+  // }
+}
