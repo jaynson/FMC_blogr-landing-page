@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2d1a98b.chunk.css",
+    "main.js": "/static/js/main.1056358c.chunk.js",
+    "main.js.map": "/static/js/main.1056358c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.15b364d4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.15b364d4.js.map",
+    "static/js/2.c91fe40a.chunk.js": "/static/js/2.c91fe40a.chunk.js",
+    "static/js/2.c91fe40a.chunk.js.map": "/static/js/2.c91fe40a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c2d1a98b.chunk.css.map": "/static/css/main.c2d1a98b.chunk.css.map",
+    "static/js/2.c91fe40a.chunk.js.LICENSE.txt": "/static/js/2.c91fe40a.chunk.js.LICENSE.txt",
+    "static/media/featuredView.css": "/static/media/bg-pattern-circles.bae804b8.svg",
+    "static/media/headerview.css": "/static/media/bg-pattern-intro.bf6b3e1b.svg",
+    "static/media/coreServices.css": "/static/media/illustration-laptop-mobile.fe1ec0f0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15b364d4.js",
+    "static/js/2.c91fe40a.chunk.js",
+    "static/css/main.c2d1a98b.chunk.css",
+    "static/js/main.1056358c.chunk.js"
+  ]
+}
